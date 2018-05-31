@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+#include <libintl.h>
+#include <locale.h>
 #include <termios.h>
 #include <unistd.h>
 #include "merge.h"
 #include "gfx.h"
+
+#define _(STRING) gettext(STRING)
 
 #define iterate(n, expression)\
     do {\
@@ -37,11 +42,11 @@ void gfx_draw(struct gfx_state *s, struct gamestate *g)
 #endif
 
     if (g->score_last)
-        printf("Score: %ld (+%ld)\n", g->score, g->score_last);
+        printf(_("Score: %ld (+%ld)\n"), g->score, g->score_last);
     else
-        printf("Score: %ld\n", g->score);
+        printf(_("Score: %ld\n"), g->score);
 
-    printf("   Hi: %ld\n", g->score_high);
+    printf(_("   Hi: %ld\n"), g->score_high);
 
     iterate((g->print_width + 2) * g->opts->grid_width + 1, printf("-")); printf("\n");
 

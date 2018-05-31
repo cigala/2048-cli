@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <libintl.h>
+#include <locale.h>
 #include "highscore.h"
 #include "options.h"
 
+#define _(STRING) gettext(STRING)
+
 void print_usage(void)
 {
-    printf("usage: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n");
+    printf(_("usage: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n"));
 }
 
 
