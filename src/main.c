@@ -20,8 +20,8 @@ int main(int argc, char **argv)
 {
     /* Setting the i18n environment */
     setlocale (LC_ALL, "");
-    bindtextdomain ("2048", getenv("PWD"));
-    textdomain ("2048");
+    bindtextdomain ("messages", "./po");
+    textdomain ("messages");
 
     struct gamestate *g = gamestate_init(argc, argv);
     if (!g) {
