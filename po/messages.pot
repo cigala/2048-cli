@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-31 12:44-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gfx_terminal.c:44
+#, c-format
+msgid "   Hi: %ld\n"
+msgstr ""
+
+#: src/highscore.c:56
+#, c-format
+msgid "Are you sure you want to reset your scores? Y(es) or N(o)\n"
+msgstr ""
+
+#: src/highscore.c:74
+#, c-format
+msgid "Please enter Yes or No\n"
+msgstr ""
+
+#: src/gfx_terminal.c:42
+#, c-format
+msgid "Score: %ld\n"
+msgstr ""
+
+#: src/gfx_terminal.c:40
+#, c-format
+msgid "Score: %ld (+%ld)\n"
+msgstr ""
+
+#: src/highscore.c:93
+#, c-format
+msgid "load: Failed to open highscore file\n"
+msgstr ""
+
+#: src/highscore.c:98
+#, c-format
+msgid "load: Failed to parse highscore file\n"
+msgstr ""
+
+#: src/highscore.c:120
+#, c-format
+msgid "save: Failed to open highscore file\n"
+msgstr ""
+
+#: src/highscore.c:125
+#, c-format
+msgid "save: Failed to write highscore file\n"
+msgstr ""
+
+#: src/options.c:9
+#, c-format
+msgid "usage: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n"
+msgstr ""
