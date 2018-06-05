@@ -25,12 +25,12 @@ msgstr "   Max: %ld\n"
 #: src/highscore.c:56
 #, c-format
 msgid "Are you sure you want to reset your scores? Y(es) or N(o)\n"
-msgstr "¿Estás seguro que querés reestablecer tus puntos? Y (si) o N (no)\n"
+msgstr "¿Estás seguro que querés reestablecer tus puntajes máximos? Y (si) o N (no)\n"
 
 #: src/highscore.c:74
 #, c-format
 msgid "Please enter Yes or No\n"
-msgstr "Por favor ingresar Y (si) o N (no)\n"
+msgstr "Por favor ingresá Y (Si) o N (No)\n"
 
 #: src/gfx_terminal.c:42
 #, c-format
@@ -45,22 +45,22 @@ msgstr "Puntaje: %ld (+%ld)\n"
 #: src/highscore.c:93
 #, c-format
 msgid "load: Failed to open highscore file\n"
-msgstr "load: Error al abrir el archivo de máximos puntajes\n"
+msgstr "load: Error al abrir el archivo de puntajes máximos\n"
 
 #: src/highscore.c:98
 #, c-format
 msgid "load: Failed to parse highscore file\n"
-msgstr "load: Error al analizar el archivo de máximos puntajes\n"
+msgstr "load: Error al analizar el archivo de puntajes máximos\n"
 
 #: src/highscore.c:120
 #, c-format
 msgid "save: Failed to open highscore file\n"
-msgstr "save: Error al abrir el archivo de máximos puntajes\n"
+msgstr "save: Error al abrir el archivo de puntajes máximos\n"
 
 #: src/highscore.c:125
 #, c-format
 msgid "save: Failed to write highscore file\n"
-msgstr "save: Error al escribir el archivo de máximos puntajes\n"
+msgstr "save: Error al escribir el archivo de puntajes máximos\n"
 
 #: src/options.c:9
 #, c-format
