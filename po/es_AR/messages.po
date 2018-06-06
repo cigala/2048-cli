@@ -25,7 +25,7 @@ msgstr "   Max: %ld\n"
 #: src/highscore.c:56
 #, c-format
 msgid "Are you sure you want to reset your scores? Y(es) or N(o)\n"
-msgstr "¿Estás seguro que querés reestablecer tus puntajes máximos? Y (si) o N (no)\n"
+msgstr "¿Estás seguro que querés restablecer tus puntajes máximos? Y (si) o N (no)\n"
 
 #: src/highscore.c:74
 #, c-format
